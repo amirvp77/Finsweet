@@ -1,8 +1,16 @@
 @import "tailwindcss";
+@import "./css/font.css";
 
 @plugin "daisyui";
+
+
+
+
+
 
 html,
 body {
   overflow-x: hidden;
+  font-family: "pop";
+
 }

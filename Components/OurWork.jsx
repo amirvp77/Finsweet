@@ -1,34 +1,68 @@
 import { HiArrowLongRight } from "react-icons/hi2";
-export default function OurWork(){
-    return(
-        <>
-            <section className="w-full md:w-[1280] h-auto md:h-[728] m-auto flex flex-col justify-center gap-8">
 
-                <div className="flex max-md:flex-col max-md:gap-4 mt-10 justify-between ">
+export default function OurWork() {
+  return (
+    <section className="w-full md:w-[1280] h-auto md:h-[728] m-auto flex flex-col justify-center gap-8 px-4 md:px-0">
+      <div className="flex max-md:flex-col max-md:gap-4 mt-10 justify-between items-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-black">
+          View our projects
+        </h2>
 
-                    <h2 className="text-3xl md:text-5xl font-medium text-black">View our projects</h2>
-                    <a className="text-base text-blue-700 md:flex items-center gap-2" href="#">View More 
+        <a
+          className="text-base font-bold text-black flex items-center gap-2 group"
+          href="#"
+        >
+          View More
+          <HiArrowLongRight className="w-6 h-6 transition-all duration-300 group-hover:translate-x-2" />
+        </a>
+      </div>
 
-                        <HiArrowLongRight className="text-[#590fd8] w-[24]  " /></a>
-                </div>
+      <div className="w-full flex flex-col md:flex-row gap-3 md:gap-6">
+        <div className="w-full md:w-[843] h-[300] md:h-[600] relative bg-[url('/CardBd.png')] bg-cover bg-center hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] transition-all duration-600">
+          <div className="absolute inset-y-0 left-0 w-full md:w-[400] bg-[#1C1E53BF]"></div>
 
-                <div className="w-full flex max-md:flex-col gap-6">
+          <div className="absolute inset-y-0 left-0 w-full md:w-[350] gap-8 p-8 md:p-12 flex flex-col justify-center mt-0 md:mt-65 text-white z-10">
+            <h3 className="text-2xl font-bold">
+              Workhub office Webflow Webflow Design
+            </h3>
 
-                    <div className="w-[843] max-md:w-full h-[600] max-md:h-[300] bg-[url('/CardBd.png')] bg-cover">
+            <p className="text-sm text-gray-200 opacity-80">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam
+            </p>
 
-                    </div>
+            <a
+              className="hidden text-base text-amber-300 md:flex items-center group gap-2"
+              href="#"
+            >
+              View More
+              <HiArrowLongRight className="text-amber-300 text-2xl w-[24] transition-all duration-300 group-hover:translate-x-2" />
+            </a>
+          </div>
+        </div>
 
-                    <div className="flex flex-col gap-8 max-md:w-full">
+        <div className="flex flex-row md:flex-col gap-3 md:gap-6 w-full md:w-[414]">
+          <div className="w-full h-[150] md:h-[284] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0_16_56px_rgba(17,17,26,0.1)] transition-all duration-600">
+            <div className="absolute inset-0 bg-[#1C1E536B]"></div>
 
-                        <div className="w-[414] max-md:w-full h-[284] max-md:h-[200] bg-[url('/Card3.png')] bg-cover"></div>
+            <div className="absolute inset-0 p-8 flex flex-col justify-center mt-0 md:mt-30 gap-5 text-white z-10">
+              <h3 className="text-xl font-bold">
+                Unisaas Website <br /> Design
+              </h3>
 
-                        <div className="w-[414] max-md:w-full h-[284] max-md:h-[200] bg-[url('/Card2.png')] bg-cover"></div>
+              <a
+                className="hidden text-base text-amber-300 md:flex items-center group gap-2"
+                href="#"
+              >
+                View More
+                <HiArrowLongRight className="text-amber-300 text-2xl w-[24] transition-all duration-300 group-hover:translate-x-2" />
+              </a>
+            </div>
+          </div>
 
-                    </div>
-
-                </div>
-
-            </section>
-        </>
-    )
+          <div className="w-full h-[150] md:h-[284] bg-[url('/Card2.png')] bg-cover bg-center hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] transition-all duration-600"></div>
+        </div>
+      </div>
+    </section>
+  );
 }
