@@ -1,51 +1,42 @@
 "use client";
 
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
 
 import "swiper/css";
-import "swiper/css/navigation";
 
 export default function MySwiper() {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-  const [isReady, setIsReady] = useState(false);
-
-  useEffect(() => {
-    setIsReady(true);
-  }, []);
-
-  if (!isReady) return null;
+  const swiperRef = useRef(null);
 
   return (
-    <div className="relative w-full md:w-[843]">
+    <div className="relative w-full md:w-[843px]">
       <Swiper
-        modules={[Navigation, Autoplay]}
-        navigation={{
-          prevEl: prevRef.current,
-          nextEl: nextRef.current,
+        modules={[Autoplay]}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
         }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
         loop={true}
-        className="w-full h-[300]"
+        className="w-full h-[300px]"
       >
+        {/* Slide 1 */}
         <SwiperSlide>
-          <div className="relative w-full h-full p-[48]">
+          <div className="relative w-full h-full p-[48px]">
             <p className="text-2xl leading-relaxed">
               "Working with this team was an amazing experience from start to
               finish."
             </p>
 
-            <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
+            <div className="absolute bottom-[48px] left-[48px] flex items-center gap-4">
               <img
                 src="/Profile.png"
                 alt="Jenny Wilson"
-                className="w-[48] h-[48] rounded-full object-cover"
+                className="w-[48px] h-[48px] rounded-full object-cover"
               />
 
               <div>
@@ -56,18 +47,19 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
+        {/* Slide 2 */}
         <SwiperSlide>
-          <div className="relative w-full h-full p-[48]">
+          <div className="relative w-full h-full p-[48px]">
             <p className="text-2xl leading-relaxed">
               "Working with this team was an amazing experience from start to
               finish."
             </p>
 
-            <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
+            <div className="absolute bottom-[48px] left-[48px] flex items-center gap-4">
               <img
                 src="/Profile.png"
                 alt="Jenny Wilson"
-                className="w-[48] h-[48] rounded-full object-cover"
+                className="w-[48px] h-[48px] rounded-full object-cover"
               />
 
               <div>
@@ -78,18 +70,19 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
+        {/* Slide 3 */}
         <SwiperSlide>
-          <div className="relative w-full h-full p-[48]">
+          <div className="relative w-full h-full p-[48px]">
             <p className="text-2xl leading-relaxed">
               "A great team with excellent communication and attention to
               detail."
             </p>
 
-            <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
+            <div className="absolute bottom-[48px] left-[48px] flex items-center gap-4">
               <img
                 src="/Profile.png"
                 alt="Jenny Wilson"
-                className="w-[48] h-[48] rounded-full object-cover"
+                className="w-[48px] h-[48px] rounded-full object-cover"
               />
 
               <div>
@@ -100,18 +93,19 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
+        {/* Slide 4 */}
         <SwiperSlide>
-          <div className="relative w-full h-full p-[48]">
+          <div className="relative w-full h-full p-[48px]">
             <p className="text-2xl leading-relaxed">
               "A great team with excellent communication and attention to
               detail."
             </p>
 
-            <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
+            <div className="absolute bottom-[48px] left-[48px] flex items-center gap-4">
               <img
                 src="/Profile.png"
                 alt="Jenny Wilson"
-                className="w-[48] h-[48] rounded-full object-cover"
+                className="w-[48px] h-[48px] rounded-full object-cover"
               />
 
               <div>
@@ -122,18 +116,19 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
+        {/* Slide 5 */}
         <SwiperSlide>
-          <div className="relative w-full h-full p-[48]">
+          <div className="relative w-full h-full p-[48px]">
             <p className="text-2xl leading-relaxed">
               "Working with this team was an amazing experience from start to
               finish."
             </p>
 
-            <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
+            <div className="absolute bottom-[48px] left-[48px] flex items-center gap-4">
               <img
                 src="/Profile.png"
                 alt="Jenny Wilson"
-                className="w-[48] h-[48] rounded-full object-cover"
+                className="w-[48px] h-[48px] rounded-full object-cover"
               />
 
               <div>
@@ -145,17 +140,20 @@ export default function MySwiper() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="absolute bottom-[48] right-[48] z-10 flex gap-4">
+      {/* Navigation Buttons */}
+      <div className="absolute bottom-[48px] right-[48px] z-10 flex gap-4">
         <button
-          ref={prevRef}
-          className="w-[48] h-[48] rounded-full flex items-center justify-center bg-white text-[#8A8A8A] cursor-pointer"
+          type="button"
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="flex h-[48px] w-[48px] cursor-pointer items-center justify-center rounded-full bg-white text-[#8A8A8A]"
         >
           <HiArrowLongLeft size={24} />
         </button>
 
         <button
-          ref={nextRef}
-          className="w-[48] h-[48] rounded-full flex items-center justify-center bg-[#5B4BFF] text-white cursor-pointer"
+          type="button"
+          onClick={() => swiperRef.current?.slideNext()}
+          className="flex h-[48px] w-[48px] cursor-pointer items-center justify-center rounded-full bg-[#5B4BFF] text-white"
         >
           <HiArrowLongRight size={24} />
         </button>
