@@ -33,17 +33,17 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-[517] max-md:w-full h-[95] max-md:h-auto bg-amber-200 md:flex max-md:flex-col items-center md:justify-center gap-6 text-base">
-            <div>
+          <div className="w-[517] max-md:w-full h-[95] max-md:h-auto bg-amber-200 flex justify-center md:flex max-md:flex-col md:items-center md:justify-center gap-6 text-base">
+            <div >
               <h3 className="text-black font-bold">Call us</h3>
 
-              <p className="text-gray-500">0927 6277 28525</p>
+              <p className="text-gray-600">0927 6277 28525</p>
             </div>
 
-            <div>
+            <div >
               <h3 className="text-black font-bold">Email me at</h3>
 
-              <p className="text-gray-500">contact@website.com</p>
+              <p className="text-gray-600">contact@website.com</p>
             </div>
           </div>
         </section>

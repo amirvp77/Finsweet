@@ -23,23 +23,22 @@ export default function MySwiper() {
     <div className="relative w-full md:w-[843]">
       <Swiper
         modules={[Navigation, Autoplay]}
-        navigation={true}
+        navigation={{
+          prevEl: prevRef.current,
+          nextEl: nextRef.current,
+        }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
         loop={true}
         className="w-full h-[300]"
-        onBeforeInit={(swiper) => {
-          swiper.params.navigation.prevEl = prevRef.current;
-          swiper.params.navigation.nextEl = nextRef.current;
-        }}
       >
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
-              "The best agency we've worked with so far. They understand our
-              product and are able to add new features with a great focus."
+              "Working with this team was an amazing experience from start to
+              finish."
             </p>
 
             <div className="absolute bottom-[48] left-[48] flex items-center gap-4">

@@ -18,7 +18,7 @@ export default function OurWork() {
       </div>
 
       <div className="w-full flex flex-col md:flex-row gap-3 md:gap-6">
-        <div className="w-full md:w-[843] h-[300] md:h-[600] relative bg-[url('/CardBd.png')] bg-cover bg-center hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] transition-all duration-600">
+        <div className="w-full md:w-[843] h-[300] md:h-[600] relative bg-[url('/CardBd.png')] bg-cover bg-center hover:shadow-2xl  transition-all duration-600">
           <div className="absolute inset-y-0 left-0 w-full md:w-[400] bg-[#1C1E53BF]"></div>
 
           <div className="absolute inset-y-0 left-0 w-full md:w-[350] gap-8 p-8 md:p-12 flex flex-col justify-center mt-0 md:mt-65 text-white z-10">
@@ -42,7 +42,7 @@ export default function OurWork() {
         </div>
 
         <div className="flex flex-row md:flex-col gap-3 md:gap-6 w-full md:w-[414]">
-          <div className="w-full h-[150] md:h-[284] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0_16_56px_rgba(17,17,26,0.1)] transition-all duration-600">
+          <div className="w-full h-[150] md:h-[284] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:shadow-2xl l transition-all duration-600">
             <div className="absolute inset-0 bg-[#1C1E536B]"></div>
 
             <div className="absolute inset-0 p-8 flex flex-col justify-center mt-0 md:mt-30 gap-5 text-white z-10">
@@ -60,7 +60,7 @@ export default function OurWork() {
             </div>
           </div>
 
-          <div className="w-full h-[150] md:h-[284] bg-[url('/Card2.png')] bg-cover bg-center hover:md:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] transition-all duration-600"></div>
+          <div className="w-full h-[150] md:h-[284] bg-[url('/Card2.png')] bg-cover bg-center hover:shadow-2xl transition-all duration-600"></div>
         </div>
       </div>
     </section>
