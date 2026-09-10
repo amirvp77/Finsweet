@@ -81,8 +81,8 @@ export default function MySwiper() {
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
-              "They delivered everything we needed and made the whole process
-              very simple."
+              "A great team with excellent communication and attention to
+              detail."
             </p>
 
             <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
@@ -125,8 +125,8 @@ export default function MySwiper() {
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
-              "We are very happy with the final result and would definitely work
-              with them again."
+              "Working with this team was an amazing experience from start to
+              finish."
             </p>
 
             <div className="absolute bottom-[48] left-[48] flex items-center gap-4">
