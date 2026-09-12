@@ -8,7 +8,7 @@ import { BsPencilFill } from "react-icons/bs";
 export default function Features() {
   return (
     <>
-      <section className="w-full h-auto md:h-[1191] bg-[#F4F6FC] flex flex-col py-10 md:py-0">
+      <section className="w-full h-auto md:h-[1191] bg-[#F4F6FC] gap-10 md:gap-0 flex flex-col py-10 md:py-0">
         <div className="w-full md:w-[630] text-black h-auto md:h-[232] m-auto px-6 md:p-10 text-center">
           <h5>Features</h5>
 
