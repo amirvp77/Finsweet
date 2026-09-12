@@ -3,7 +3,7 @@ export default function Process() {
     <>
       <div className="w-full md:w-[1280] h-auto md:h-[268] mt-10 md:mt-20 m-auto px-6 md:px-0  ">
 
-        <h1 className="text-3xl md:text-5xl text-center p-4 font-bold">
+        <h1 className="text-3xl md:text-5xl text-center md:mb-10 p-4 font-bold">
           The process we follow
         </h1>
 

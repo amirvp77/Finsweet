@@ -2,6 +2,8 @@ import SvgIcon2 from "../Svg/SvgIcon2";
 
 export default function HeroFeatures() {
   return (
+
+    
     <div className="flex flex-col md:flex-row h-auto md:h-[757] md:w-[1600] bg-[#1C1E53] md:justify-center gap-10 md:gap-7 px-6 md:px-0 py-10 md:py-0">
       <div className="order-1 md:order-2 w-full md:w-[638] h-[250] md:h-[361] mt-0 md:mt-20 flex justify-center items-center relative">
         <SvgIcon2 />
@@ -27,8 +29,8 @@ export default function HeroFeatures() {
         </div>
 
         <div className="flex max-md:flex-wrap">
-          <button className="relative cursor-pointer opacity-90 hover:opacity-100 mt-10 transition-opacity p-[2] bg-black rounded-[16px] bg-gradient-to-t from-[#FCD980] to-[#FCD980] active:scale-95">
-            <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#FCD980] rounded-[14px] bg-gradient-to-t from-[#FCD980] to-[#FCD980]">
+          <button className="relative cursor-pointer opacity-90 hover:opacity-100 mt-10 transition-opacity p-[2] bg-black rounded-2xl bg-linear-to-t from-[#FCD980] to-[#FCD980] active:scale-95">
+            <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#FCD980] rounded-[14px] bg-linear-to-t from-[#FCD980] to-[#FCD980]">
               View our work
             </span>
           </button>

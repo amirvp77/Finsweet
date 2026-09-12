@@ -8,11 +8,11 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body>
 
-        <header> <Header/> </header>
+         <Header/> 
 
         {children}
 
-        <footer> <Footer/>  </footer>
+        <Footer/>  
 
       </body>
     </html>

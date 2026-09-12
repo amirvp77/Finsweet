@@ -32,7 +32,7 @@ export default function OurWork() {
             </p>
 
             <a
-              className="hidden text-base text-amber-300 md:flex items-center group gap-2"
+              className="flex text-base text-amber-300 md:flex items-center group gap-2"
               href="#"
             >
               View More
@@ -46,16 +46,16 @@ export default function OurWork() {
             <div className="absolute inset-0 bg-[#1C1E536B]"></div>
 
             <div className="absolute inset-0 p-8 flex flex-col justify-center mt-0 md:mt-30 gap-5 text-white z-10">
-              <h3 className="text-xl font-bold">
+              <h3 className=" md:text-xl font-bold">
                 Unisaas Website <br /> Design
               </h3>
 
               <a
-                className="hidden text-base text-amber-300 md:flex items-center group gap-2"
+                className="flex text-base text-amber-300 md:flex items-center group gap-2"
                 href="#"
               >
                 View More
-                <HiArrowLongRight className="text-amber-300 text-2xl w-[24] transition-all duration-300 group-hover:translate-x-2" />
+                <HiArrowLongRight className=" text-amber-300 text-2xl w-[24] transition-all duration-300 group-hover:translate-x-2" />
               </a>
             </div>
           </div>

@@ -24,7 +24,7 @@ export default function MySwiper() {
         loop={true}
         className="w-full h-[300]"
       >
-        {/* Slide 1 */}
+
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
@@ -47,7 +47,6 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
-        {/* Slide 2 */}
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
@@ -70,7 +69,6 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
-        {/* Slide 3 */}
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
@@ -93,7 +91,6 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
-        {/* Slide 4 */}
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
@@ -116,7 +113,6 @@ export default function MySwiper() {
           </div>
         </SwiperSlide>
 
-        {/* Slide 5 */}
         <SwiperSlide>
           <div className="relative w-full h-full p-[48]">
             <p className="text-2xl leading-relaxed">
@@ -140,7 +136,6 @@ export default function MySwiper() {
         </SwiperSlide>
       </Swiper>
 
-      {/* Navigation Buttons */}
       <div className="absolute bottom-[48] right-[48] z-10 flex gap-4">
         <button
           type="button"

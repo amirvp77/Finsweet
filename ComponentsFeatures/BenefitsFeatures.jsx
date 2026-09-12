@@ -11,7 +11,7 @@ export default function BenefitsFeatures() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 m-auto gap-5 w-full">
-          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] transition-all duration-500">
+          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,112,184,0.7)] transition-all duration-500">
             <BsClipboard2DataFill className="text-blue-700 text-4xl" />
             <h2 className="text-black text-2xl">Uses Client First</h2>
             <p className="text-gray-500">
@@ -21,7 +21,7 @@ export default function BenefitsFeatures() {
             </p>
           </div>
 
-          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] transition-all duration-500">
+          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,112,184,0.7)] transition-all duration-500">
             <BsPencilFill className="text-blue-700 text-4xl" />
             <h2 className="text-black text-2xl">Two Free Revision Round</h2>
             <p className="text-gray-500">
@@ -31,7 +31,7 @@ export default function BenefitsFeatures() {
             </p>
           </div>
 
-          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] transition-all duration-500">
+          <div className="w-full md:w-[405] h-auto md:h-[316] flex flex-col bg-[#F4F6FC] gap-3 p-7 md:p-10 md:hover:shadow-[0_20px_50px_rgba(8,112,184,0.7)] transition-all duration-500">
             <FaPeopleGroup className="text-blue-700 text-4xl" />
             <h2 className="text-black text-2xl">Template Customization</h2>
             <p className="text-gray-500">
