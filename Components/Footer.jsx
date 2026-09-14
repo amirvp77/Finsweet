@@ -9,9 +9,9 @@ export default function Footer() {
             <div className="w-full md:w-[1058] h-auto md:h-[206] flex max-md:flex-col gap-10 md:gap-30 p-7">
               <div className="">
                 <h1 className="text-2xl font-bold text-white">Finsweet</h1>
-
+                
                 <br />
-
+                
                 <p className="text-base text-gray-400">
                   We are always open to discuss your project and improve your
                   online presence.
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-[517] max-md:w-full h-[95] max-md:h-auto bg-amber-200 flex justify-center md:flex max-md:flex-col md:items-center md:justify-center gap-6 text-base">
+          <div className="w-[517] max-md:w-full h-[95] max-md:h-auto bg-amber-200 flex justify-center md:flex max-md:flex-col md:items-center md:justify-center gap-6 text-base px-7 py-3">
             <div >
               <h3 className="text-black font-bold">Call us</h3>
 

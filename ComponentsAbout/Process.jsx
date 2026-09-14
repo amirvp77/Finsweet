@@ -1,68 +1,73 @@
-export default function Process() {
+import Image from "next/image";
+
+export default function Section() {
   return (
-    <>
-      <div className="w-full md:w-[1280] h-auto md:h-[268] mt-10 md:mt-20 m-auto px-6 md:px-0  ">
+    <div
+      className="w-full h-auto bg-[#F4F5F5] m-auto mt-10 flex flex-col justify-center transition-all duration-500 px-6 py-10
 
-        <h1 className="text-3xl md:text-5xl text-center md:mb-10 p-4 font-bold">
-          The process we follow
-        </h1>
+      md:mt-20 md:px-10 md:py-0
 
-        <div className="w-full md:w-[1280] h-auto md:h-[156] grid grid-cols-2 md:flex justify-center gap-8 md:gap-4  mt-5 md:mt-0">
-          
-          <div className="w-full md:w-[272] h-auto md:h-[24] flex flex-col gap-3">
+      lg:w-[1280] lg:h-[716] lg:px-0 lg:hover:shadow-xl/40"
+    >
+      <div
+        className="w-full h-auto flex flex-col gap-10
 
-            <div className="w-full md:w-[272] h-[24] flex items-center gap-2">
-              <div className="size-5 shrink-0 bg-[#2405F2] rounded-full"></div>
-              <div className="w-full md:w-[210] border-b-[2] border-dashed border-[#2405F2]"></div>
-            </div>
+        md:flex-row md:justify-center md:gap-10
 
-            <h2 className="text-sm md:text-2xl font-bold">Development</h2>
+        lg:w-[1280] lg:h-[376] lg:mt-10 lg:p-3 lg:gap-10"
+      >
+        <div
+          className="flex flex-col gap-4 w-full
 
-            <p className="text-sm md:text-base w-full md:w-[272]">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-            </p>
-          </div>
+          md:w-1/2
 
-          <div className="w-full md:w-[272] h-auto md:h-[24] flex flex-col gap-3">
-            <div className="w-full md:w-[272] h-[24] flex items-center gap-2">
-              <div className="size-5 shrink-0 bg-[#2405F2] rounded-full"></div>
-              <div className="w-full md:w-[210] border-b-[2] border-dashed border-[#2405F2]"></div>
-            </div>
+          lg:w-[590]"
+        >
+          <h4 className="text-base">Who we are</h4>
 
-            <h2 className="text-sm md:text-2xl font-bold">Development</h2>
+          <h3 className="text-3xl font-bold lg:text-4xl">Goal focussed</h3>
 
-            <p className="text-sm md:text-base w-full md:w-[272]">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-            </p>
-          </div>
+          <p className="text-gray-500 text-sm lg:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
 
-          <div className="w-full md:w-[272] h-auto md:h-[24] flex flex-col gap-3">
-            <div className="w-full md:w-[272] h-[24] flex items-center gap-2">
-              <div className="size-5 shrink-0 bg-[#2405F2] rounded-full"></div>
-              <div className="w-full md:w-[210] border-b-[2] border-dashed border-[#2405F2]"></div>
-            </div>
+        <div
+          className="flex flex-col gap-4 w-full
 
-            <h2 className="text-sm md:text-2xl font-bold">Development</h2>
+          md:w-1/2
 
-            <p className="text-sm md:text-base w-full md:w-[272]">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-            </p>
-          </div>
+          lg:w-[590]"
+        >
+          <br className="hidden lg:block" />
 
-          <div className="w-full md:w-[272] h-auto md:h-[24] flex flex-col gap-3">
-            <div className="w-full md:w-[272] h-[24] flex items-center gap-2">
-              <div className="size-5 shrink-0 bg-[#2405F2] rounded-full"></div>
-              <div className="w-full md:w-[210] border-b-[2] border-dashed border-[#2405F2]"></div>
-            </div>
+          <h3 className="text-3xl font-bold lg:text-4xl">
+            Continuous improvement
+          </h3>
 
-            <h2 className="text-sm md:text-2xl font-bold">Development</h2>
-
-            <p className="text-sm md:text-base w-full md:w-[272]">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-            </p>
-          </div>
+          <p className="text-gray-500 text-sm lg:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
         </div>
       </div>
-    </>
+
+      <Image
+        src="/about2.jpg"
+        alt="About2 image"
+        width={1280}
+        height={340}
+        className="w-full p-2 h-[250] object-cover
+
+        md:h-[300]
+
+        lg:h-[340]"
+      />
+    </div>
   );
 }

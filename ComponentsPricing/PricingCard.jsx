@@ -3,7 +3,7 @@ import { AiFillCaretRight } from "react-icons/ai";
 export default function PricingCard() {
   return (
     <>
-      <div className="w-full mt-10 h-auto md:h-[745] flex flex-col md:flex-row justify-center gap-6 md:gap-10 px-6 md:px-0">
+      <div className="w-full mt-10 h-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-10 px-6 md:px-0 items-center">
         <div className="w-full md:w-[406] h-auto md:h-[745] rounded-2xl flex flex-col bg-[#F4F6FC] items-start justify-center gap-8 md:gap-10 p-8 md:p-0 duration-300 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)]">
           <div className="flex gap-3 items-center ml-0 md:ml-20">
             <h2 className="text-3xl md:text-4xl font-bold">$299</h2>

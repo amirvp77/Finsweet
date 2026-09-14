@@ -3,24 +3,48 @@ import SvgIcon from "../Svg/Svg";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col md:flex-row h-auto md:h-[757] md:w-[1600] bg-[#1C1E53] md:justify-center md:gap-7 px-6 md:px-0 py-10 md:py-0">
-      <div className="order-1 md:order-2 w-full md:w-[638] h-[250] md:h-[361]  md:mt-20 flex justify-center items-center relative">
+    <div
+      className="flex flex-col bg-[#1C1E53] px-6 py-10
+
+      md:flex-col md:gap-10
+
+      lg:flex-row lg:h-[757] lg:w-full lg:justify-center lg:gap-7 lg:px-0 lg:py-0"
+    >
+      <div
+        className="order-1 w-full h-[250] flex justify-center items-center relative
+
+        md:h-[350]
+
+        lg:order-2 lg:w-[638] lg:h-[361] lg:mt-20"
+      >
         <SvgIcon />
       </div>
 
-      <div className="order-2 md:order-1 w-full px-6 md:px-0 md:w-[582] md:h-[414] mt-5 md:mt-20">
+      <div
+        className="order-2 w-full mt-5 px-6
+
+        md:max-w-[582] md:mx-auto
+
+        lg:order-1 lg:w-[582] lg:h-[414] lg:mt-20 lg:px-0"
+      >
         <div>
-          <h2 className="text-white text-3xl md:text-5xl font-bold md:w-[582] md:h-[222]">
+          <h2
+            className="text-white text-3xl font-bold
+
+            md:text-4xl
+
+            lg:text-5xl lg:w-[582] lg:h-[222]"
+          >
             Building stellar websites for early startups
           </h2>
 
-          <p className="text-gray-400 text-base mt-5 md:mt-0">
+          <p className="text-gray-400 text-base mt-5 lg:mt-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
         </div>
 
-        <div className="flex max-md:flex-wrap">
+        <div className="flex flex-wrap">
           <button className="relative cursor-pointer opacity-90 hover:opacity-100 mt-10 transition-opacity p-[2] bg-black rounded-[16] bg-linear-to-t from-[#FCD980] to-[#FCD980] active:scale-95">
             <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#FCD980] rounded-[14px] bg-linear-to-t from-[#FCD980] to-[#FCD980]">
               View our work

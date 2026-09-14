@@ -5,17 +5,27 @@ import Socials4 from "../Svg/Socials4";
 
 export default function Team() {
   return (
-    <>
-      <div className="w-full md:w-[1600] h-auto md:h-[712] bg-[#F4F6FC] mt-10 md:mt-10 flex flex-col items-center justify-center gap-8 md:gap-12 px-6 md:px-0 py-10 md:py-0">
-        <h2 className="text-3xl md:text-5xl font-bold">Meet our team</h2>
+    <div
+      className="w-full h-auto bg-[#F4F6FC] mt-10 flex flex-col items-center justify-center gap-8 px-6 py-10
 
-        <div className="w-full md:w-[1280] h-auto md:h-[344] flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
-          <Socials1 />
-          <Socials2 />
-          <Socials3 />
-          <Socials4 />
-        </div>
+      md:gap-12 md:px-10
+
+      lg:w-[1600] lg:h-[712] lg:px-0 lg:py-0"
+    >
+      <h2 className="text-3xl font-bold lg:text-5xl">Meet our team</h2>
+
+      <div
+        className="w-full h-auto grid grid-cols-1 gap-6 place-items-center
+
+        md:grid-cols-2
+
+        lg:w-[1280] lg:h-[344] lg:flex lg:flex-row lg:justify-center lg:gap-10"
+      >
+        <Socials1 />
+        <Socials2 />
+        <Socials3 />
+        <Socials4 />
       </div>
-    </>
+    </div>
   );
 }

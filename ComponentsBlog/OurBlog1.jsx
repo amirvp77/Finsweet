@@ -1,13 +1,13 @@
 export default function OurBlog1() {
   return (
     <>
-      <div className="w-full md:w-[1278] mt-10 md:mt-20 mb-10 m-auto px-6 md:px-0">
-        <h1 className="text-center p-5 md:p-10 font-bold text-3xl md:text-5xl">
+      <div className="w-full lg:w-[1278] mt-10 lg:mt-20 mb-10 m-auto px-6 lg:px-0">
+        <h1 className="text-center p-5 lg:p-10 font-bold text-3xl lg:text-5xl">
           Our Blog
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          <div className="card bg-base-100 w-full md:w-96 group cursor-pointer shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10 justify-items-center">
+          <div className="card bg-base-100 w-full lg:w-96 group cursor-pointer shadow-sm">
             <figure className="overflow-hidden">
               <img
                 src="/Our6.png"
@@ -35,7 +35,7 @@ export default function OurBlog1() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-full md:w-96 shadow-sm group cursor-pointer">
+          <div className="card bg-base-100 w-full lg:w-96 shadow-sm group cursor-pointer">
             <figure className="overflow-hidden">
               <img
                 src="/Our2.png"
@@ -63,7 +63,7 @@ export default function OurBlog1() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-full md:w-96 shadow-sm group cursor-pointer">
+          <div className="card bg-base-100 w-full lg:w-96 shadow-sm group cursor-pointer">
             <figure className="overflow-hidden">
               <img
                 src="/Our4.png"
@@ -91,7 +91,7 @@ export default function OurBlog1() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-full md:w-96 shadow-sm group cursor-pointer">
+          <div className="card bg-base-100 w-full lg:w-96 shadow-sm group cursor-pointer">
             <figure className="overflow-hidden">
               <img
                 src="/Our3.png"
@@ -119,7 +119,7 @@ export default function OurBlog1() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-full md:w-96 shadow-sm group cursor-pointer">
+          <div className="card bg-base-100 w-full lg:w-96 shadow-sm group cursor-pointer">
             <figure className="overflow-hidden">
               <img
                 src="/Our5.png"
@@ -147,7 +147,7 @@ export default function OurBlog1() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-full md:w-96 shadow-sm group cursor-pointer">
+          <div className="card bg-base-100 w-full lg:w-96 shadow-sm group cursor-pointer">
             <figure className="overflow-hidden">
               <img
                 src="/Our1.png"

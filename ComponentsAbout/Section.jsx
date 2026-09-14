@@ -1,47 +1,66 @@
-import Image from "next/image";
-
-export default function Section() {
+export default function Process() {
   return (
-    <>
-      <div className="w-full md:w-[1280] h-auto md:h-[716] bg-[#F4F5F5] m-auto mt-10 md:mt-20 flex flex-col justify-center transition-all duration-500 md:hover:shadow-xl/40">
-        <div className="w-full md:w-[1280] h-auto md:h-[376] flex flex-col md:flex-row justify-center mt-0 md:mt-10 p-6 md:p-3 gap-10">
-          <div className="flex flex-col gap-4 w-full md:w-auto">
-            <h4 className="text-base">Who we are</h4>
+    <div
+      className="w-full h-auto mt-10 m-auto px-6
 
-            <h3 className="text-3xl md:text-4xl font-bold">Goal focussed</h3>
+      md:mt-20 md:px-10
 
-            <p className="text-gray-500 text-sm md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+      lg:w-[1280] lg:h-[268] lg:px-0"
+    >
+      <h1
+        className="text-3xl text-center mb-10 p-4 font-bold
+
+        md:text-5xl"
+      >
+        The process we follow
+      </h1>
+
+      <div
+        className="w-full h-auto grid grid-cols-2 gap-8
+
+        md:grid-cols-4 md:gap-6
+
+        lg:w-[1280] lg:h-[156] lg:flex lg:justify-center lg:gap-4"
+      >
+        {[1, 2, 3, 4].map((item) => (
+          <div
+            key={item}
+            className="w-full flex flex-col gap-3
+
+            lg:w-[272] lg:h-[156]"
+          >
+            <div
+              className="w-full h-[24] flex items-center gap-2
+
+              lg:w-[272]"
+            >
+              <div className="size-5 shrink-0 bg-[#2405F2] rounded-full"></div>
+
+              <div className="w-full border-b-[2] border-dashed border-[#2405F2]"></div>
+            </div>
+
+            <h2
+              className="text-sm font-bold
+
+              md:text-xl
+
+              lg:text-2xl"
+            >
+              Development
+            </h2>
+
+            <p
+              className="text-sm
+
+              md:text-base
+
+              lg:w-[272]"
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
             </p>
           </div>
-
-          <div className="flex flex-col gap-4 w-full md:w-auto">
-            <br className="hidden md:block" />
-
-            <h3 className="text-3xl md:text-4xl font-bold">
-              Continuous improvement
-            </h3>
-
-            <p className="text-gray-500 text-sm md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-
-        <Image
-          src="/about2.jpg"
-          alt="About2 image"
-          width={1280}
-          height={340}
-          className="md:w-full p-2  h-[250] md:h-[340] object-cover"
-        />
+        ))}
       </div>
-    </>
+    </div>
   );
 }

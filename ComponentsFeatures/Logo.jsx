@@ -6,21 +6,62 @@ import Logo5 from "../Svg/Logo5";
 
 export default function Logo() {
   return (
-    <>
-      <div className="w-full md:w-[1280] h-auto md:h-[84] m-auto mt-10 md:mt-20 flex flex-row justify-center items-start gap-8 md:gap-16 px-6 md:px-0">
-        <div className="w-[120] md:w-[176] h-auto md:h-[84] shrink-0 ">
-          <h2 className="text-2xl md:text-4xl font-bold mt-10 md:mt-0 ">100.000+</h2>
-          <p>Finsweet Users</p>
-        </div>
+    <div
+      className="
+        w-full
+        h-auto
+        m-auto
+        mt-10
+        flex
+        flex-col
+        items-center
+        gap-8
+        px-6
+        md:mt-20
+        md:gap-12
+        lg:w-[1280]
+        lg:h-[84]
+        lg:flex-row
+        lg:justify-center
+        lg:items-start
+        lg:px-0
+        lg:gap-16
+      "
+    >
+      <div
+        className="
+          w-[176]
+          h-[84]
+          text-center
+          lg:text-left
+        "
+      >
+        <h2 className="text-3xl lg:text-4xl font-bold">100.000+</h2>
 
-        <div className="w-full md:w-[1015] h-auto md:h-[32] flex flex-wrap md:flex-nowrap justify-center md:justify-between gap-8 md:gap-10 scale-75 md:scale-100">
-          <Logo1 />
-          <Logo2 />
-          <Logo3 />
-          <Logo4 />
-          <Logo5 />
-        </div>
+        <p>Finsweet Users</p>
       </div>
-    </>
+
+      <div
+        className="
+          w-full
+          flex
+          flex-wrap
+          justify-center
+          items-center
+          gap-8
+          md:gap-10
+          lg:w-[1015]
+          lg:flex-nowrap
+          lg:justify-between
+          lg:gap-10
+        "
+      >
+        <Logo1 />
+        <Logo2 />
+        <Logo3 />
+        <Logo4 />
+        <Logo5 />
+      </div>
+    </div>
   );
 }
