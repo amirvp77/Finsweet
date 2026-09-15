@@ -4,7 +4,7 @@ A modern and responsive agency landing page recreated from a Figma design using 
 
 ## 🚀 Live Demo
 
-https://19c27185.finsweet.pages.dev/
+[https://19c27185.finsweet.pages.dev/](https://finsweet-three-xi.vercel.app/)
 
 ## 🛠️ Technologies
 
