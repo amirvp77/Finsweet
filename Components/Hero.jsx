@@ -8,7 +8,7 @@ export default function Hero() {
 
       md:flex-col md:gap-10
 
-      lg:flex-row lg:h-[757] lg:w-full lg:justify-center lg:gap-7 lg:px-0 lg:py-0"
+      lg:flex-row lg:h-[757] lg:w-full lg:justify-center lg:gap-7 "
     >
       <div
         className="order-1 w-full h-[250] flex justify-center items-center relative
