@@ -35,7 +35,7 @@ export default function OurWork() {
           lg:w-[843] lg:h-[600]"
         >
           <div
-            className="absolute inset-0 w-full 
+            className="absolute inset-0 w-full
   bg-linear-to-t from-[#1C1E53] via-[#1C1E53CC] to-transparent
   lg:w-[400]"
           ></div>
@@ -64,19 +64,19 @@ export default function OurWork() {
         </div>
 
         <div
-          className="flex flex-col gap-6 w-full
+          className="flex  gap-6 w-full
           md:flex-row
           lg:w-[414] lg:flex-col"
         >
           <div
-            className="w-full h-[200] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:shadow-2xl transition-all duration-600
+            className="w-[200] h-[150] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:shadow-2xl transition-all duration-600
             md:h-[250]
             lg:h-[284]"
           >
             <div
               className="absolute inset-0 w-full 
   bg-linear-to-t from-[#1C1E53] via-[#1C1E53CC] to-transparent
-  lg:w-[400]"
+  "
             ></div>
 
             <div
@@ -98,7 +98,7 @@ export default function OurWork() {
           </div>
 
           <div
-            className="w-full h-[200] bg-[url('/Card2.png')] bg-cover bg-center hover:shadow-2xl transition-all duration-600
+            className="w-[200] h-[150] bg-[url('/Card2.png')] bg-cover bg-center hover:shadow-2xl transition-all duration-600
             md:h-[250]
             lg:h-[284]"
           ></div>

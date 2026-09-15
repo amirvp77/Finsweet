@@ -96,10 +96,10 @@ export default function Form() {
           lg:w-[908]
           h-auto
           lg:h-[176]
-          m-auto
+          px-8
           mt-10
           flex
-          justify-center
+          justify-start
         "
         >
           <input
