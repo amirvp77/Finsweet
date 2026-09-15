@@ -22,6 +22,7 @@ export default function BestInClass() {
         lg:justify-between
         lg:gap-0
         lg:px-0
+        lg:mt-20
       "
     >
       <div
