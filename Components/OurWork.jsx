@@ -35,8 +35,9 @@ export default function OurWork() {
           lg:w-[843] lg:h-[600]"
         >
           <div
-            className="absolute inset-y-0 left-0 w-full bg-[#1C1E53BF]
-            lg:w-[400]"
+            className="absolute inset-0 w-full 
+  bg-linear-to-t from-[#1C1E53] via-[#1C1E53CC] to-transparent
+  lg:w-[400]"
           ></div>
 
           <div
@@ -72,7 +73,11 @@ export default function OurWork() {
             md:h-[250]
             lg:h-[284]"
           >
-            <div className="absolute inset-0 bg-[#1C1E536B]"></div>
+            <div
+              className="absolute inset-0 w-full 
+  bg-linear-to-t from-[#1C1E53] via-[#1C1E53CC] to-transparent
+  lg:w-[400]"
+            ></div>
 
             <div
               className="absolute inset-0 p-6 flex flex-col gap-2 justify-end text-white z-10
