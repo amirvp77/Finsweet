@@ -7,7 +7,6 @@ export default function Header() {
       <div className="flex items-center justify-between py-6 px-7 text-white lg:ml-15">
         <Finsweet />
 
-        {/* Mobile + Tablet Menu */}
         <label
           htmlFor="menu"
           className="lg:hidden border border-white/30 rounded-full px-8 py-3 text-lg cursor-pointer"
@@ -17,7 +16,6 @@ export default function Header() {
 
         <input type="checkbox" id="menu" className="peer hidden" />
 
-        {/* Overlay */}
         <div className="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-all duration-300 peer-checked:opacity-100 lg:hidden z-40"></div>
 
         <nav
@@ -67,7 +65,6 @@ export default function Header() {
             Blog
           </Link>
 
-          {/* Mobile + Tablet */}
           <Link
             href="/Contact"
             className="w-full transition-all duration-300 hover:text-amber-300 lg:hidden"
@@ -75,7 +72,6 @@ export default function Header() {
             Contact Us
           </Link>
 
-          {/* Desktop */}
           <Link href="/Contact">
             <button className="hidden lg:block cursor-pointer relative bg-white/10 py-2 rounded-full min-w-34 min-h-[2.92rem] group max-w-full flex items-center justify-start hover:bg-[#FCD980] transition-all duration-[0.8s] ease-[cubic-bezier(0.510,0.026,0.368,1.016)] shadow-[inset_1px_2px_5px_#00000080]">
               <div className="absolute flex px-1 py-0.5 justify-start items-center inset-0">
