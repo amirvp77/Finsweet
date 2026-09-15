@@ -37,13 +37,13 @@ The main focus was on accurately implementing the design, creating reusable Reac
 Clone the repository:
 
 ```bash
-git clone https://github.com/amirvp77/finsweet-agency-landing-page.git
+git clone https://github.com/amirvp77/finsweet.git
 ```
 
 Navigate to the project:
 
 ```bash
-cd finsweet-agency-landing-page
+cd finsweet
 ```
 
 Install dependencies:
