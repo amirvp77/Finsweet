@@ -70,7 +70,9 @@ export default function OurWork() {
         >
           <div
             className="w-[200] h-[150] relative bg-[url('/Card3.png')] bg-cover bg-center overflow-hidden hover:shadow-2xl transition-all duration-600
+            md:w-full
             md:h-[250]
+            lg:w-full
             lg:h-[284]"
           >
             <div
@@ -99,7 +101,9 @@ export default function OurWork() {
 
           <div
             className="w-[200] h-[150] bg-[url('/Card2.png')] bg-cover bg-center hover:shadow-2xl transition-all duration-600
+            md:w-full
             md:h-[250]
+            lg:w-full
             lg:h-[284]"
           ></div>
         </div>
