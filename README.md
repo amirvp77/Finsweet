@@ -3,8 +3,7 @@
 A modern and responsive agency landing page recreated from a Figma design using Next.js and Tailwind CSS.
 
 ## 🚀 Live Demo
-
-[https://finsweet-three-xi.vercel.app/]
+https://finsweet-three-xi.vercel.app/
 
 ## 🛠️ Technologies
 
