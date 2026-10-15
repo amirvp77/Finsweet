@@ -1,89 +1,85 @@
-# 🎨 Finsweet Agency Landing Page
+# 🎨 Finsweet
 
-A modern and responsive agency landing page recreated from a Figma design using Next.js and Tailwind CSS.
+یک وب‌سایت مدرن و واکنش‌گرا که بر اساس طرح Figma و با استفاده از Next.js و Tailwind CSS پیاده‌سازی شده است.
 
-## 🚀 Live Demo
-https://finsweet-three-xi.vercel.app/
+## 🚀 پیش‌نمایش آنلاین
 
-## 🛠️ Technologies
+[مشاهده پروژه Finsweet](https://finsweet-three-xi.vercel.app/)
 
-* Next.js
-* React
-* Tailwind CSS
-* JavaScript
-* React Icons
-* Swiper.js
-* daisyui
-* uiverse.io
-* Pwa
+## 🛠️ تکنولوژی‌های استفاده‌شده
 
-## ✨ Features
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+- React Icons
+- Swiper.js
+- daisyUI
+- Uiverse.io
+- PWA
 
-* 📱 Fully responsive design
-* 💻 Desktop and mobile layouts
-* 🎨 Figma-based UI implementation
-* 🧩 Reusable React components
-* 🖼️ Custom SVG components
-* 💬 Testimonials section with Swiper slider
-* 📐 Responsive layouts with Tailwind CSS
-* ⚡ Next.js App Router
+## ✨ امکانات پروژه
 
-## 🎯 Project Purpose
+- 📱 طراحی واکنش‌گرا برای موبایل و دسکتاپ
+- 🎨 پیاده‌سازی رابط کاربری بر اساس طرح Figma
+- 🧩 استفاده از کامپوننت‌های قابل استفاده مجدد در React
+- 🖼️ طراحی کامپوننت‌های سفارشی SVG
+- 💬 نمایش نظرات مشتریان با استفاده از اسلایدر Swiper
+- 📐 طراحی چیدمان صفحات با Tailwind CSS
+- ⚡ استفاده از App Router در Next.js
 
-This project was created to practice converting a Figma design into a responsive and reusable frontend application.
+## 🎯 هدف پروژه
 
-The main focus was on accurately implementing the design, creating reusable React components, and adapting the layout for different screen sizes.
+این پروژه با هدف تمرین پیاده‌سازی طرح‌های Figma در قالب یک وب‌سایت فرانت‌اند ساخته شده است.
 
-## 📦 Getting Started
+تمرکز اصلی بر پیاده‌سازی دقیق رابط کاربری، ساخت کامپوننت‌های قابل استفاده مجدد و ایجاد تجربه‌ای مناسب در اندازه‌های مختلف صفحه‌نمایش بوده است.
 
-Clone the repository:
+## 📦 راه‌اندازی پروژه
+
+### ۱. دریافت پروژه
 
 ```bash
 git clone https://github.com/amirvp77/finsweet.git
 ```
 
-Navigate to the project:
+### ۲. ورود به پوشه پروژه
 
 ```bash
 cd finsweet
 ```
 
-Install dependencies:
+### ۳. نصب وابستگی‌ها
 
 ```bash
 npm install
 ```
 
-Run the development server:
+### ۴. اجرای پروژه
 
 ```bash
 npm run dev
 ```
 
-Open:
+سپس آدرس زیر را در مرورگر باز کنید:
 
 ```text
 http://localhost:3000
 ```
 
-## 📁 Project Structure
+## 📁 ساختار پروژه
 
 ```text
-├── Components
-├── Svg
-├── public
-├── src
-│   └── app
+├── Components/
+├── Svg/
+├── public/
+├── src/
+│   └── app/
 ├── package.json
 └── next.config.mjs
 ```
 
-## 🎨 Design
-
-The project was implemented based on a Figma design and adapted to provide a responsive experience across desktop and mobile devices.
-
-## 👨‍💻 Author
+## 👨‍💻 توسعه‌دهنده
 
 **Amir Valipour**
 
-GitHub: [@amirvp77](https://github.com/amirvp77)
+گیت‌هاب: [@amirvp77](https://github.com/amirvp77)
